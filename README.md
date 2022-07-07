@@ -1,16 +1,15 @@
 # JavaLab1
-Створити консольну програму мовою Java і написати record клас <Назва_із_завдання> який додатково міститиме:
+Create consol program in Java and write record class which additinally contains:
 
-Три приватних поля, які найкраще описують даний клас (сумарно - 6 полів)
-Конструктор без параметрів, конструктор, який отримує три параметри. Для конструкторів слід виконати виклики chain of constructors
-Перевизначений метод, що повертає стрічкове представлення класу (toString())
-Статичне поле
-Статичний метод, що повертає значення статичного поля
-Окремий клас (Main) в якому:
+3 private fields, which describe particular class the best
+Constructor without parameters with 3 parameters. For constructors implement chain of constructors.
+Overriden method which returns string representation of class (toString())
+Static field
+Static method which returns value of static field
+Separate class Main in which:
 
-В main() методі створіть 3 об’єкти типу із завдання (з-за допомогою передачі різної кількості параметрів) та виведіть інформацію про них з-за допомогою методу з пункту 3 в консоль
-Розроблений код має бути залито в гіт репозиторій як pull request! В репозиторії мать бути README і .gitignore файл.
-Створити клас “Лічильник тепла” котрий містить поля:
-поріг чутливості
-висота
-ціна
+In main() method create 3 objects of record class (using different amount of parameters given) and output info about them using representation method in console
+Create class “Warmth counter” which contains fields:
+1) sensitivity threshold
+2) height
+3) price
